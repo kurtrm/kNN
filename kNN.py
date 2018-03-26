@@ -12,7 +12,7 @@ class KNearestNeighbors:
     Implementation of K Nearest Neighbor classification
     algorithm.
     """
-    def __init__(self, k, distance_func: Callable) -> None:
+    def __init__(self, k: int, distance_func: Callable) -> None:
         """
         Initialize class with the:
         k -> minimum number of neighbors to classify data.
