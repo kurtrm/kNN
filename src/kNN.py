@@ -21,7 +21,7 @@ class KNearestNeighbors:
         self.k = k
         self.distance_func = distance_func
 
-    def fit(self, X: np.ndarray, y: np.ndarray):
+    def fit(self, X: np.ndarray, y: np.ndarray) -> 'KNearestNeighbors':
         """Fit the data."""
         self.X = X
         self.y = y
