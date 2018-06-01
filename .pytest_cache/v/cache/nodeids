@@ -1,0 +1,3 @@
+[
+  "tests/test_kNN.py::test_instantiation"
+]
