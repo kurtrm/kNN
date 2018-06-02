@@ -1,3 +1,4 @@
 [
-  "tests/test_kNN.py::test_instantiation"
+  "tests/test_kNN.py::test_instantiation",
+  "tests/test_kNN.py::test_cosine_dist_func"
 ]
