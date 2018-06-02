@@ -19,4 +19,4 @@ def euclidean_distance(x: np.ndarray, other: np.ndarray) -> float:
     """
     Calculates the euclidean distance between two data sets.
     """
-    return np.sqrt(np.sum((other - x)**2, axis=1))
+    return np.sqrt(np.sum((other - x)**2))

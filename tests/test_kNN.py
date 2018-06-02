@@ -31,3 +31,14 @@ def test_cosine_dist_func():
                           np.array([7, 8, 9]))
 
     assert scratch_cosine == pytest.approx(scipy_cosine, .01)
+
+
+def test_euclidean_dist_func():
+    """
+    Simple test for euclidean distance function.
+    """
+    scratch_euclid = euclidean_distance(np.array([4, 5, 6]),
+                                        np.array([7, 8, 9]))
+    scipy_euclid = euclidean(np.array([4, 5, 6]),
+                             np.array([7, 8, 9]))
+    assert scratch_euclid == pytest.approx(scipy_euclid, .01)
